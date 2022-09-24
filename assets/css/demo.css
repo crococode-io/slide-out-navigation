@@ -1,0 +1,464 @@
+/**
+ * demo.css
+ * https://www.instagram.com/croco.code/
+ *
+ * Licensed under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * Copyright 2022, CROCO.CODE
+ * https://www.instagram.com/croco.code/
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700|Josefin+Slab:300,400,700');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body #croco {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #994444;
+  color: #F2F2F2;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+/* croco - slide out navigation */
+
+body #croco .slide-out-navigation {
+  background-color: #994444;
+  position: relative;
+  display: block;
+  width: 100%;
+  width: 100vw;
+  height: 100%;
+  height: 100vh;
+}
+
+body #croco .slide-out-navigation .left-column {
+  background-color: #994444;
+  position: relative;
+  display: block;
+  width: 50%;
+  width: 50vw;
+  height: 100%;
+  height: 100vh;
+  float: left;
+  overflow: hidden;
+}
+
+body #croco .slide-out-navigation .left-column .left-column-header {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+body #croco .slide-out-navigation .left-column .left-column-header .logo {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  overflow: hidden;
+  float: left;
+}
+
+body #croco .slide-out-navigation .left-column .left-column-header .logo a {
+  font-family: 'Josefin Slab', serif;
+  background-color: rgba(242, 242, 242, 0.15);
+  color: #F2F2F2;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 32px 0;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  text-decoration: none;
+  outline: 0px none;
+  outline: 0px;
+}
+
+body #croco .slide-out-navigation .left-column .left-column-header .navigation-main {
+  color: #F2F2F2;
+  position: relative;
+  display: block;
+  padding: 39px;
+  font-size: 18px;
+  line-height: 18px;
+  float: left;
+  cursor: pointer;
+}
+
+body #croco .slide-out-navigation .left-column .left-column-header .navigation-main span {
+  position: relative;
+}
+
+body #croco .slide-out-navigation .left-column .left-column-header .navigation-main span::after {
+  background-color: #F2F2F2;
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  right: 0; bottom: -4px; left: 0;
+}
+
+body #croco .slide-out-navigation .left-column .left-column-body {
+  position: relative;
+  display: block;
+  width: 100%;
+  width: calc( 100% - 200px );
+  max-width: 480px;
+  height: auto;
+  overflow: hidden;
+  padding: 48px 100px;
+  float: left;
+} 
+
+body #croco .slide-out-navigation .left-column .left-column-body .breadcrumbs {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+body #croco .slide-out-navigation .left-column .left-column-body .breadcrumbs ul {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+body #croco .slide-out-navigation .left-column .left-column-body .breadcrumbs ul li {
+  position: relative;
+  display: inline-block;
+  padding-right: 4px;
+}
+
+body #croco .slide-out-navigation .left-column .left-column-body .breadcrumbs ul li::after {
+  content: '-';
+  position: relative;
+  display: inline-block;
+  margin-left: 8px;
+}
+
+body #croco .slide-out-navigation .left-column .left-column-body .breadcrumbs ul li:last-child::after {
+  display: none;
+}
+
+body #croco .slide-out-navigation .left-column .left-column-body .breadcrumbs ul li a {
+  position: relative;
+  display: inline-block;
+  color: #F2F2F2;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 300;
+  text-decoration: none;
+  outline: 0px none;
+  outline: 0px;
+}
+
+body #croco .slide-out-navigation .left-column .left-column-body .breadcrumbs ul li:last-child a {
+  font-weight: 400;
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+}
+
+body #croco .slide-out-navigation .left-column .left-column-body h2 {
+  font-family: 'Josefin Slab', serif;
+  position: relative;
+  display: block;
+  font-size: 58px;
+  line-height: 64px;
+  font-weight: 300;
+}
+
+body #croco .slide-out-navigation .left-column .left-column-body h2::after {
+  background-color: #F2F2F2;
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  max-width: 86px;
+  height: 2px;
+  right: 0; bottom: 1px; left: 0;
+}
+
+body #croco .slide-out-navigation .left-column .left-column-body p {
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+body #croco .slide-out-navigation .right-column {
+  background-color: #241f1f;
+  position: relative;
+  display: block;
+  width: 50%;
+  width: 50vw;
+  height: 100%;
+  height: 100vh;
+  float: left;
+  overflow: hidden;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+
+/* croco - slide out navigation - details */
+
+body #croco .slide-out-navigation .navigation-details-holder {
+  background-color: #F2F2F2;
+  position: absolute;
+  display: block;
+  width: 50%;
+  width: 50vw;
+  height: 100%;
+  height: 100vh;
+  top: 96%; left: -50%;
+  z-index: 100;
+  overflow: scroll;
+}
+
+body #croco .slide-out-navigation .navigation-details-holder .close {
+  color: #241f1f;
+  position: absolute;
+  display: block;
+  width: 22px;
+  height: 22px;
+  top: 32px; right: 22px;
+  z-index: 101;
+  transition: all .3s ease;
+} 
+
+body #croco .slide-out-navigation .navigation-details-holder .close span {
+  background-color: #241f1f;
+  position: absolute;
+  display: block;
+  width: 24px;
+  height: 4px;
+  border-radius: 2px;
+  opacity: 0;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+body #croco .slide-out-navigation .navigation-details-holder .close span:nth-child(1) {
+  transform: rotate(45deg);
+  margin-top: 18px;
+  margin-left: 18px;
+  transition: all .3s ease;
+}
+
+body #croco .slide-out-navigation .navigation-details-holder .close span:nth-child(2) {
+  transform: rotate(-45deg);
+  margin-top: 18px;
+  margin-left: -18px;
+  transition: all .3s ease;
+}
+
+body #croco .slide-out-navigation .navigation-details-holder .close:hover span:nth-child(1) {
+  margin-top: 11px;
+  margin-left: 11px;
+}
+
+body #croco .slide-out-navigation .navigation-details-holder .close:hover span:nth-child(2) {
+  margin-top: 11px;
+  margin-left: -11px;
+}
+
+body #croco .slide-out-navigation .navigation-details-holder .headline {
+  position: relative;
+  display: block;
+  width: 100%;
+  width: calc( 100% - 200px );
+  height: auto;
+  padding: 16px 100px;
+  overflow: hidden;
+  opacity: 0;
+}
+
+body #croco .slide-out-navigation .navigation-details-holder .headline h2 {
+  color: #241f1f;
+  padding: 0;
+  padding-top: 48px;
+  padding-bottom: 64px;
+}
+
+body #croco .slide-out-navigation .navigation-details-holder .navigation-content {
+  position: relative;
+  display: block;
+  width: 100%;
+  width: calc( 100% - 200px );
+  height: auto;
+  padding: 16px 100px;
+  overflow: hidden;
+}
+
+body #croco .slide-out-navigation .navigation-details-holder .navigation-content .navigation-details {
+  position: relative;
+  display: block;
+  width: 33.3333%;
+  height: auto;
+  overflow: hidden;
+  float: left;
+}
+
+body #croco .slide-out-navigation .navigation-details-holder .navigation-content .navigation-details ul {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 32px;
+  list-style-type: none;
+}
+
+body #croco .slide-out-navigation .navigation-details-holder .navigation-content .navigation-details ul li {
+  position: relative;
+  display: block;
+  padding: 8px 0;
+  top: 20px;
+  opacity: 0;
+}
+
+body #croco .slide-out-navigation .navigation-details-holder .navigation-content .navigation-details ul li a {
+  color: #241f1f;
+  text-decoration: none;
+  outline: 0px none;
+  outline: 0px;
+}
+
+body #croco .slide-out-navigation .navigation-details-holder .navigation-content .navigation-details ul li a.active {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1136px) {
+
+  body #croco .slide-out-navigation .left-column .left-column-header .logo {
+    max-width: 154px;
+  }
+
+  body #croco .slide-out-navigation .left-column .left-column-body {
+    width: calc( 100% - 32px );
+    padding: 48px 16px;
+  } 
+
+  body #croco .slide-out-navigation .left-column .left-column-header .navigation-main {
+    padding: 39px 16px;
+  }
+
+  body #croco .slide-out-navigation .left-column {
+    width: 65%;
+    width: 65vw;
+  }
+  
+  body #croco .slide-out-navigation .right-column {
+    width: 35%;
+    width: 35vw;
+  }
+
+  body #croco .slide-out-navigation .navigation-details-holder {
+    width: 65%;
+    width: 65vw;
+    left: -65%;
+  }
+
+  body #croco .slide-out-navigation .navigation-details-holder .headline {
+    width: calc( 100% - 32px );
+    padding: 16px;
+  }
+
+  body #croco .slide-out-navigation .navigation-details-holder .navigation-content {
+    width: calc( 100% - 32px );
+    padding: 16px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  body #croco .slide-out-navigation .navigation-details-holder .headline h2 {
+    padding-top: 32px;
+    padding-bottom: 0px;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+
+  body #croco .slide-out-navigation .left-column .left-column-body p {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 580px) {
+
+  body #croco .slide-out-navigation .left-column .left-column-header .logo {
+    max-width: 100px;
+  }
+
+  body #croco .slide-out-navigation .left-column .left-column-header .logo a {
+    padding: 16px 0;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  body #croco .slide-out-navigation .left-column .left-column-header .navigation-main {
+    padding: 16px;
+  }
+
+}
+
+@media screen and (max-width: 460px) {
+  
+  body #croco .slide-out-navigation .left-column .left-column-body h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  body #croco .slide-out-navigation .left-column .left-column-body h2::after {
+    display: none;
+  }
+
+  body #croco .slide-out-navigation .left-column {
+    background-color: rgba(153, 68, 68, 0.65);
+    position: absolute;
+    width: 100%;
+    width: 100vw;
+    top: 0; right: 0; left: 0;
+    z-index: 2;
+  }
+  
+  body #croco .slide-out-navigation .right-column {
+    position: absolute;
+    width: 100%;
+    width: 100vw;
+    top: 0; right: 0; left: 0;
+    z-index: 1;
+  }
+
+  body #croco .slide-out-navigation .navigation-details-holder {
+    width: 100%;
+    width: 100vw;
+    left: -100%;
+  }
+
+}
