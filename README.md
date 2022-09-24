@@ -1,4 +1,4 @@
-# Slide out navigation
+# Slide out navigation 
 
 A details navigation with a box that slides out from the bottom left of the page and simple animation for menu items, that follows the first one.
 
